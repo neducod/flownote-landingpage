@@ -247,6 +247,10 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-8 {
     border-style: var(--tw-border-style);
     border-width: 8px;
