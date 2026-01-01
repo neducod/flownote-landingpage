@@ -13,4 +13,4 @@ function filterDiv(category) {
 }
 
 
-filterDivs('firstSlide');
+filterDiv('firstSlide');
