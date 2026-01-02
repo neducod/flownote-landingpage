@@ -45,27 +45,26 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col p-6 gap-6">
+    <section class="flex flex-col p-2 gap-6">
         <div>
             <h2 class="text-3xl text-left">How FlowNote Works</h2>
         </div>
-        <div class="flex flex-col sm:flex-row gap-4">
-            <div class="flex flex-row justify-center items-center">
-                <button onclick="filterDiv('firstSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black" >Record</button>
-                <button onclick="filterDiv('secSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black" >Organize</button>
-                <button onclick="filterDiv('thirdSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black" >Share</button>
+        <div class="flex flex-col sm:flex-row bg-[#FFFFF0]">
+            <div class="flex">
+                <!-- flex flex-row justify-center items-center -->
+                <button onclick="filterDiv('firstSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black w-30" >Record</button>
+                <button onclick="filterDiv('secSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black w-30" >Organize</button>
+                <button onclick="filterDiv('thirdSlide')" class="p-4 bg-[#FFFFF0] active:bg-[#F0EAD6] border border-solid border-black w-30" >Share</button>
             </div>
-
-            <div class="flex flex-col p-4 bg-[#FFFFF0]  rounded-xl containerr" data-category="firstSlide">
-                <!-- bg-blue-950 -->
+            <div class="flex flex-col p-4 bg-[#FFFFF0]  containerr border" data-category="firstSlide">
                 <h3 class="text-black">Record Your Meeting</h3>
                 <p class="text-black">Connect FlowNote to your meetings and let it securely capture conversations in real time.</p>
             </div>
-            <div class="flex flex-col p-4 bg-[#FFFFF0] rounded-xl containerr"  data-category="secSlide">
+            <div class="flex flex-col p-4 bg-[#FFFFF0] containerr border"  data-category="secSlide">
                 <h3 class="text-black">We Organize Everything</h3>
                 <p class="text-black">FlowNote identifies key points, decisions, and action items automatically—no manual work required</p>
             </div>
-            <div class="flex flex-col p-4 bg-[#FFFFF0]   rounded-xl containerr"  data-category="thirdSlide">
+            <div class="flex flex-col p-4 bg-[#FFFFF0] containerr border"  data-category="thirdSlide">
                 <h3 class="text-black">Share & Take Action</h3>
                 <p class="text-black">Instantly share clean, structured notes with your team and keep everyone aligned.</p>
             </div>
