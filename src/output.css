@@ -390,6 +390,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-blue-200 {
     color: var(--color-blue-200);
   }
