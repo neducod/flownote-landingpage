@@ -312,6 +312,9 @@
   .bg-\[\#F0EAD6\] {
     background-color: #F0EAD6;
   }
+  .bg-\[\#FFFFF0\] {
+    background-color: #FFFFF0;
+  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
@@ -408,6 +411,11 @@
   }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .active\:bg-\[\#F0EAD6\] {
+    &:active {
+      background-color: #F0EAD6;
+    }
   }
   .sm\:flex-row {
     @media (width >= 40rem) {
