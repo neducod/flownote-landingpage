@@ -6,22 +6,53 @@
   <!-- <link href="./output.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="./src/output.css">
 </head>
+<style>
+    .w-full{
+        position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('src/ihq7h3/gettyimages-1220605858-612x612.jpg');
+   /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image */
+  z-index: 1;
+    }
+    .texta{
+        position: relative; 
+  width: 100%;
+  height: 300px;
+    }
+    .textt{
+        position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Optional: Center the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Make text readable against the background */
+  z-index: 2; 
+    }
+</style>
 <body>
     <nav></nav>
     <header class="bg-white">
-        <div class="flex flex-col p-6 justify-center items-center gap-6">
-            <div class="w-full flex gap-2 flex-col">
+        <div class="flex flex-col p-6 justify-center items-center gap-6 texta">
+            <div class="w-full flex gap-2 flex-col textt">
                 <p>🚀</p>
-                <h1 class="text-3xl">Turn Every Meeting Into Clear Action Items</h1>
+                <h1 class="text-3xl text-center p-2">Turn Every Meeting Into Clear Action Items</h1>
                 <p class="text-lg text-center">FlowNote automatically captures key points, decisions, and tasks from your meetings—so your team stays aligned without extra work.</p>
                 <div class="flex flex-row w-full gap-4 justify-center items-center">
                     <button class="p-2 bg-gray-300 rounded-xl text-green-700">Get NoteFlow</button>
                     <!-- <button class="p-2 bg-gray-300 rounded-xl text-green-700">See How It Works</button> -->
                 </div>
             </div>
-            <div class="w-full">
-                <!-- <img src="./src/ihq7h3/hero.jpeg" alt="hero-image" class=""> -->
-            </div>
+            <div class="w-full"></div>
             <p>Trusted by 600+ remote teams worldwide</p>
         </div>
     </header>
